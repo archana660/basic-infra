@@ -1,5 +1,8 @@
-**/state-backup.json
-# **/terraform.tfvars
+# Terraform state files
 **/*.tfstate
 **/*.tfstate.*
-**/.terraform/
+
+# Local Terraform files for the dev environment
+/environment/dev/.terraform/
+/environment/dev/state-backup.json
+/environment/dev/.terraform.lock.hcl
